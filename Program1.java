@@ -12,5 +12,6 @@ public class swap {
 		b=a-b;
 		a=a-b;
 		System.out.println("Numbers after swapping are: a=  " +a+ ", b = " +b);
+		Syste.out.println("First Merge Conflict");
 	}
 }
