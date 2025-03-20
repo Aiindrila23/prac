@@ -7,10 +7,11 @@ public class swap {
 		int a = sc.nextInt();
 		System.out.println("Enter 2nd number: ");
 		int b = sc.nextInt();
+		int temp;
 		System.out.println("Numbers before swapping are: a = " +a+ ", b =" +b);
-		a=a+b;
-		b=a-b;
-		a=a-b;
+		temp=a;
+		a=b;
+		b=temp;
 		System.out.println("Numbers after swapping are: a=  " +a+ ", b = " +b);
 	}
 }
